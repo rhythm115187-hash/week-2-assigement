@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rhythm Dhital | Personal Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Rhythm Dhital</h1>
+    <p>Computer Science student and aspiring software developer.</p>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <figure>
+        <img src="images/profile.jpeg" alt="Illustrated profile portrait of Rhythm Dhital" width="240" height="240">
+        <figcaption>Rhythm Dhital</figcaption>
+      </figure>
+      <p>I am a computer science student interested in web development, Linux systems, databases, and cybersecurity. I enjoy building practical projects and learning how software works from the interface to the backend.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <dl>
+        <dt>HTML5</dt>
+        <dd>Semantic page structure, accessible forms, and standards-compliant markup.</dd>
+        <dt>JavaScript</dt>
+        <dd>Interactive web applications and client-side programming.</dd>
+        <dt>React</dt>
+        <dd>Component-based frontend development.</dd>
+        <dt>Node.js</dt>
+        <dd>Backend APIs and server-side JavaScript development.</dd>
+        <dt>PostgreSQL</dt>
+        <dd>Relational database design, SQL, and application data management.</dd>
+        <dt>Linux</dt>
+        <dd>Arch Linux administration, shell workflows, and development environments.</dd>
+      </dl>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Coin Row</h3>
+        <p>A full-stack web project that combines a React frontend with a Node.js and PostgreSQL backend for managing games and user access.</p>
+        <p><a href="https://github.com/rudhra-dhital/coin-row">View the Coin Row repository</a></p>
+      </article>
+
+      <article>
+        <h3>Linux Development Setup</h3>
+        <p>A personal Linux configuration project focused on a productive Arch Linux environment with Hyprland, shell customization, development tools, and system utilities.</p>
+        <p><a href="https://github.com/rudhra-dhital/arch-linux-config">View the Linux configuration repository</a></p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </p>
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="8" cols="40" required></textarea>
+        </p>
+        <p><button type="submit">Send Message</button></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Rhythm Dhital. Built with semantic HTML5.</p>
+  </footer>
+</body>
+</html>
